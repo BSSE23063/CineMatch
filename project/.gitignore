@@ -18,7 +18,8 @@ ENV/
 
 # Model files (optional - you can include or exclude)
 # Uncomment if your model files are too large (>100MB)
-# *.pkl
+
+*.pkl
 
 # IDE
 .vscode/
