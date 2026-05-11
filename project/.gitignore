@@ -1,0 +1,39 @@
+# .gitignore
+# Dataset files (too large for GitHub)
+ml-32m/
+ml-latest/
+ml-25m/
+*.csv
+!sample_movies.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Model files (optional - you can include or exclude)
+# Uncomment if your model files are too large (>100MB)
+# *.pkl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment
+.env
+.venv
